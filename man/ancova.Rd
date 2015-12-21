@@ -11,7 +11,7 @@
   \item{after}{Subject's score after receiving the drug}
 }}
 \source{
-Dunno, Zar?
+Dunno, not Zar
 }
 \usage{
 data(ancova)

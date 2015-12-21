@@ -17,7 +17,8 @@
   were delayed}
 }}
 \source{
-Moore, Basic Practice of Statistics.
+Moore and McCabe, "Introduction to the Practice of Statistics", Freeman, 3rd edition,
+page 206 (exercise 2.94).
 }
 \usage{
 data(airlines)
