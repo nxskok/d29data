@@ -214,3 +214,55 @@ NULL
 #' @name dancing
 #' @usage data(dancing)
 NULL
+
+#' Effect of trimethaphan and morphine on histamine levels in dogs
+#'
+#' Eight dogs are randomly assigned to receive either morphine or trimethophan. Their log-histamine
+#' levels were measured at 0, 1, 3 and 5 minutes after injection of the drug. (In the original study,
+#' sixteen dogs were used, eight of which had depleted histamine levels before the experiment. Those
+#' dogs are omitted here.)
+#'
+#' @format 8 rows of 6 variables:
+#'
+#' \describe{
+#'   \item{Drug}{Morphine or Trimethaphan}
+#'   \item{x}{Whether the dog had depleted histamine levels before the experiment, always N (No) here.}
+#'   \item{lh0}{Log-histamine level at time 0}
+#'   \item{lh1}{Log-histamine level at time 1}
+#'   \item{lh3}{Log-histamine level at time 3}
+#'   \item{lh5}{Log-histamine level at time 5}
+#' }
+#'
+#' @source Cole, J. W. L., & Grizzle, J. E. (1966). Applications of multivariate analysis of variance
+#' to repeated measurements experiments. Biometrics, 810-828, obtained from
+#' \url{http://www.sfu.ca/sasdoc/sashtml/stat/chap30/sect56.htm}.
+#' @docType data
+#' @keywords datasets
+#' @name dogs
+#' @usage data(dogs)
+NULL
+
+#' Effect of reading activities on Degree of Reading Power scores
+#'
+#'  Results of an experiment to test whether directed reading activities in the classroom help
+#'  elementary school students improve aspects of their reading ability. A treatment class of 21
+#'  third-grade students participated in these activities for eight weeks, and a control class of 23
+#'  third-graders followed the same curriculum without the activities. After the eight-week
+#'  period, students in both classes took a Degree of Reading Power (DRP) test which measures the
+#'  aspects of reading ability that the treatment is designed to improve.
+#'
+#' @format 44 rows of 2 variables:
+#'
+#' \describe{
+#'   \item{group}{Treatment group (t), including activities, on control group (c) without activities}
+#'   \item{score}{Degree of Reading Power score at end of study}
+#' }
+#'
+#' @source Moore, David S., and George P. McCabe (1989). Introduction to the Practice of Statistics.
+#'  Description above taken from \url{https://www.statcrunch.com/5.0/shareddata.php?keywords=CLASSROOM},
+#'  data set "Improving Reading Ability".
+#' @docType data
+#' @keywords datasets
+#' @name drp
+#' @usage data(drp)
+NULL
